@@ -1,0 +1,83 @@
+Questions à poser pour l'entretien avec Lilly et Marthe :
+
+1. Quelles fonctionalités sur le site ?
+Le site doit-il proposer plusieurs langues, réservation ou paiement en ligne ?
+Y aura-t-il une infolettre ou la proposition d'inscription/création de compte ?
+
+2. Quelle est la cible visée ? Le design et IU devront être adapté à la cible.
+
+2. Lister les mots-clés de la barre de recherche google (qu'est-ce que l'internaute va taper comme recherche ?)
+(Pour le référencement naturel, en tete des résultats de google)
+
+3. Prévoir la structure du site :
++ accueil 
++ lien vers les réseaux sociaux 
++ à propos de nous (qui sommes-nous ?) 
++ Mettre en avant plusieurs expériences qui révèleront votre expertise
++ comment prendre contact avec vous + prendre un rdv 
++ les différents services et offres proposés + les options possibles 
++ les tarifs détaillés 
++ avis client
++ Penser aux mentions légales + la protection des données + aux conditions générales de vente
+Ainsi que le contenu de chaque compartiment.
+
+Pour les liens vers les réseaux sociaux : pour Insta, les 20 dernières photos peuvent apparaître sur le site -> voir pour faire la demande auprès d'Insta.
+
+4. Récupérer le nom de domaine + le logo (format .PNG avec fond en transparence) + exemples de sites dans la même inspiration -> voir avec Lilly
+
+Idée : Création d'un calendrier qui permettra à l'internaute de visualier le temps qu'il faudra envisager pour la gestion de son évènement avec les différentes dates 
+clé qui pourraient vous faciliter l'organisation de votre travail (de votre côté) et qui permettraient une visibilité plus transparente pour le client -> à mettre en
+place lorsque le projet est validée par vos soins
+
+Par la suite : Où héberger le site internet ?
+
+1. Créer une adresse mail pro
+2. Faire une conversation WhatsApp avec Lilly, Marthe, Lou + moi
+3. Organiser un Trello avec les différentes étapes du projet + mettre Lilly et Marthe en visualisation
+4. Prévoir un outils de ticketing pour la maintenance des sites web
+
+Etapes du projet :
+1. Rassemblement des éléments nécessaires des 2 côtés
+2. Premier rdv de recueil des souhaits -> samedi 06/11
+3. Mise en place de l'organisation et de la communication du projet
+4. Programmation avec des rdv réguliers pour montrer l'avancement et revoir des questionnements
+5. Démonstration aux clients + revoir leurs derniers souhaits
+6. Livraison du site web
+
+Prévoir une extraction simple des données pour faire des stats.
+Lorsque le formulaire est complété et envoyé -> push par mail dans la boite de l'entreprise.
+Site d'inspiration : wkm agency
+
+
+Revoir la barre de menu (fixe avec des boutons)
+Page d'accueil :
+	mettre une photo de fond sur le haut de la page (laisser l'effet grisé)
+	mettre le logo au premier plan
+	message : Créateur de moments d'exception
+	refaire totalement les boutons pour les offres
+	mettre des photos
+	refaire le lien pour le formulaire de contact
+	faire le footer comme celui du site web WKM
+Présentation :
+	retirer la photo du haut et mettre le titre en "souligné"
+	mettre "rencontrer notre équipe" en sourdine
+Galerie photos :
+	retirer la photo du haut et mettre le titre en "souligné"
+	mettre les photos en mode "galerie" et créer un effet de zoom et un texte qui apparait lorsque que le curseur est placé dessus.
+	voir le site wkm agency.
+Nos offres :
+	retirer la photo du haut et mettre le titre en "souligné"
+	revoir toute la page
+	faire des bulles avec les 2 offres
+	lorsque l'on clique sur une bulle, renvoie à une nouvelle page avec les détails de l'offre
+	voir la maquette de Shelter Events
+Nos partenaire :
+	retirer la photo du haut et mettre le titre en "souligné"
+	a mettre en attente pour le moment
+Contact :
+	retirer la photo du haut et mettre le titre en "souligné"
+	en attente du formulaire souhaité par les filles
+
+
+
+
