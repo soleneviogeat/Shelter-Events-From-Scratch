@@ -101,7 +101,7 @@ nav
 {   
     display: block;
     line-height: 40px;
-    background: url(/logo-pictures/fond-blanc-bouton.jpg);
+    background: url(logo-pictures/fond-blanc-bouton.jpg);
     color: #6733CF;
     -webkit-transition: all 0.7s ease-out 0s;
     -moz-transition: all 0.7s ease-out 0s;
@@ -116,7 +116,7 @@ nav
 }
 
 .bouton_menu:hover 
-{   background: url(/logo-pictures/fond-violet-bouton.JPG);
+{   background: url(logo-pictures/fond-violet-bouton.JPG);
     color: #ffffff;
 }
 
