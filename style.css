@@ -1,3 +1,23 @@
+/* Typographies */
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+</style>
+
+font-family: 'Vidaloka', serif;
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+</style>
+
+font-family: 'Playfair Display', serif;
+
+<style>
+@import url('https://fonts.googleapis.com/css2? family= Clicker+Script & display=swap');
+</style>
+
+font-family : 'Clicker Script', cursif ;
+
 /* Eléments principaux de la page */
 
 #bloc_page
@@ -212,7 +232,7 @@ footer
 {   margin-top: 80px;
     display: flex;
     justify-content: space-between;
-    background-color: #dee4ff;
+    background-color: #eeeeee;
     margin-right: ;
 }
 
@@ -236,6 +256,11 @@ footer
 
 .link_element p {
     margin-right: 1%;
+}
+
+
+.link_element a {
+    text-decoration: none;
 }
 
 

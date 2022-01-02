@@ -1,0 +1,24 @@
+/* Presentation */
+
+#page1
+{
+    flex: 1.2;
+    display: flex;
+    margin-top: 100px;
+    color: #6733CF;
+    font-size: 0.9em;
+    justify-content: space-around;
+    background-color: white
+}
+
+#page1 img
+{   width: 35%;
+}
+
+#page1 article
+{   width: 65%;
+    font-size: 23px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 60px;
+}
