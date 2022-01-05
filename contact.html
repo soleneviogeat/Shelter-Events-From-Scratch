@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="presentation.css" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Shelter Events - Créateur de moments d'exception</title>
+    </head>
+
+    
+    <body>
+        <div id="bloc_page">
+            <header>
+                <div id="titre_principal">
+                    <div id="logo">
+                        <img src="logo-pictures/logo-fond-blanc.png" alt="Logo_de_Shelter_Events" />   
+                    </div>
+                </div>
+
+                
+                <nav>
+                    <ul>
+                        <li><a href="#" class="bouton_menu">Présentation</a></li>
+                        <li><a href="#" class="bouton_menu">Nos offres</a></li>
+                        <li><a href="#" class="bouton_menu">Galerie photos</a></li>
+                        <li><a href="#" class="bouton_menu">Nos partenaires</a></li>
+                        <li><a href="#" class="bouton_menu">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+
+        <div>
+          <h2>Contactez-nous pour que votre idée devienne réalité</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo assumenda, dolorum necessitatibus eius earum voluptates sed!</p>
+        </div>
+
+
+        <form method="post" action="#">
+
+        
+ 
+          <fieldset>
+            <legend>Vos coordonnées</legend>
+            <input type="text" placeholder="Nom" autofocus required/>
+            <input type="text" placeholder="Prénom" required/>
+            <input type="text" placeholder="Adresse mail" required/>
+          </fieldset>
+
+          <fieldset>
+            <legend>Votre événement</legend>
+            <input type="date" placeholder="Date souhaitée de l'événement"/>
+
+            <p>
+              Sélectionnez le type d'événement souhaité :<br />
+              <input type="radio" name="type" value="anniversaire" /> <label for="moins15">Anniversaire</label><br />
+              <input type="radio" name="type" value="evjf" /> <label for="medium15-25">EVJF</label><br />
+              <input type="radio" name="type" value="gender reveal" /> <label for="medium25-40">Gender Reveal</label><br />
+              <input type="radio" name="type" value="brunch privé" /> <label for="plus40">Brunch privé</label>
+            </p>
+
+            <input type="number" placeholder="Nombre souhaité d'invités" required/>
+            <input type="text" placeholder="Lieu de l'événement" required/>
+            
+            <textarea name="" placeholder="Description de l'événement souhaité" cols="30" rows="10"></textarea>
+            
+         </fieldset>
+
+          <input type="submit" value="Envoyer"/>
+
+        </form>
+
+            
+            
