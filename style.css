@@ -73,7 +73,7 @@ nav ul
 nav li
 {
     width : 15%;
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
 nav a
@@ -101,24 +101,26 @@ nav
 {   
     display: block;
     line-height: 40px;
-    background: url(logo-pictures/fond-blanc-bouton.jpg);
+    background-color: white;
     color: #6733CF;
     -webkit-transition: all 0.7s ease-out 0s;
     -moz-transition: all 0.7s ease-out 0s;
     transition: all 0.7s ease-out 0s;
     font-weight: bold;
     text-align: center;
-    box-shadow: 4px 4px 3px white inset;
-    border-radius: 10%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 42%;
     font-size: 1.3em;
     padding-bottom: 3px;
     text-decoration: none;
 }
 
 .bouton_menu:hover 
-{   background: url(logo-pictures/fond-violet-bouton.JPG);
+{   background-color: #6733CF;
     color: #ffffff;
 }
+
+
 
 /* Bannière */
 
@@ -232,7 +234,7 @@ footer
 {   margin-top: 80px;
     display: flex;
     justify-content: space-between;
-    background-color: #eeeeee;
+    background-color: #595959;
     
 }
 
