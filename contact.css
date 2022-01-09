@@ -1,0 +1,21 @@
+/* Contact */
+
+#formulaire
+{   display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+#formulaire img
+{   width: 50%;
+}
+
+#formulaire form
+{   width: 50%;
+    font-size: 21px;
+    text-align: center;
+  
+}
+

@@ -26,15 +26,18 @@ body
 {   margin: auto;
     flex-direction: column;
     font-family: 'Playfair Display', sherif;
+ 
 }
 
+
+
 h1
-{   font-size: 30px;
+{   font-size: 25px;
     text-align: center;
     color: #6733CF;
     text-decoration: underline;
     letter-spacing: 0.1em;
-    margin-bottom: 60px;
+    background-color: 0 195 255;
     font-family: 'Vidaloka', sherif;
 }
 
@@ -171,9 +174,13 @@ figure
 /* Presentation */
 
 #presentation
-{   margin-top: 80px;
+{   
     display: flex;
+    align-items: center;
     flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin: 60px 60px 60px 60px;   
+    border: 1px solid #bbbbbb;
 }
 
 .detail_presentation
@@ -181,11 +188,9 @@ figure
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 80px;
     color: #6733CF;
     font-size: 0.9em;
-    justify-content: space-around;
-    background-color: white
+    justify-content: space-around;  
 }
 
 
@@ -195,11 +200,9 @@ figure
 
 #presentation aside
 {   width: 65%;
-    font-size: 23px;
+    font-size: 21px;
     text-align: center;
-    margin-left: 15px;
-    margin-top: 60px;
-
+    margin: 0px 30px 0px 30px;
 }
 
 aside a {
@@ -210,16 +213,22 @@ aside a {
 /* Services */
 
 #services
-{   margin-top: 80px;
+{   
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin: 60px 60px 60px 60px;   
+    border: 1px solid #bbbbbb;
+    padding: 30px 0 60px 0;
+    background: url(logo-pictures/pictures/Photo3.jpg) no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.232);
 }
-
 
 #details 
-{   display: flex;
+{   
+    display: flex;
     justify-content: space-around;
+   
 }
-
-  
   
 .offres
 {   display: flex;
@@ -228,12 +237,11 @@ aside a {
     font-weight: bold;
     font-size: 26px;  
     padding: 3%;
-    /*border: 1.5px solid;  */
     border-radius: 500px;
-    border-color: #181818;
     height: 250px;
     width: 250px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+    background-color: white;
+    border: 1.2px solid #6733CF;
 }
 
 .offres a
