@@ -3,20 +3,22 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style.css" />
+        <link href="/fontawesome/css/all.css" rel="stylesheet">
+        <script defer src="/fontawesome/js/all.js"></script>
         <title>Shelter Events - Créateur de moments d'exception</title>
     </head>
 
     
     <body>
-        <div id="bloc_page">
+        
             <header>
+
                 <div id="titre_principal">
                     <div id="logo">
-                        <img src="logo-pictures/logo-fond-blanc.png" alt="Logo_de_Shelter_Events" />   
+                        <a href="index.html"><img src="logo-pictures/logo-fond-blanc.png" alt="Logo_de_Shelter_Events" /></a>
                     </div>
                 </div>
 
-                
                 <nav>
                     <ul>
                         <li><a href="presentation.html" class="bouton_menu">Présentation</a></li>
@@ -26,8 +28,9 @@
                         <li><a href="contact.html" class="bouton_menu">Contact</a></li>
                     </ul>
                 </nav>
+                
             </header>
-        </div>
+       
 
 
 
@@ -45,15 +48,21 @@
                     
         <section id="presentation">
 
-            <img src="logo-pictures/pictures/Photo1.jpg" alt="Photo_de_présentation"/>
+            <h1>A PROPOS DE SHELTER EVENTS</h1>
 
-            <article>
-                <p>Shelter Events est plus qu’une simple agence, c’est 
-                    l’envie de créer avec vous des moments inoubliables. </p>
-                <p>Nous vous accompagnons pour… <a href="presentation.html#titre_page1">lire la suite</a></p>
-                
-                
-            </article>
+            <div class="detail_presentation">
+
+                <img src="logo-pictures/pictures/Photo5.jpg" alt="Photo_de_présentation"/>
+
+                <aside>
+                    <p>Shelter Events est plus qu’une simple agence, c’est 
+                        l’envie de créer avec vous des moments inoubliables. </p>
+                    <p>Nous vous accompagnons pour… <a href="presentation.html#titre_page1">lire la suite</a></p>
+                    
+                    
+                </aside>
+            
+            </div>
 
         </section>
 
@@ -82,21 +91,22 @@
         <footer>
 
             <div id="logo">
-                <img src="logo-pictures/logo-fond-blanc.png" alt="Logo_de_Shelter_Events" />   
+                <a href="index.html"><img src="logo-pictures/logo-fond-blanc.png" alt="Logo_de_Shelter_Events" /></a>   
             </div>
 
             <div id="link">
                 <div class="link_element">
-                    <p id="logo_footer"><a href="#" target="_blank"><img src="logo-pictures/logo1-footer.PNG" alt="Logo_mail" /></p>
-                    <p>contact@shelterevents.com</p></a>
+                    <a href="#" target="_blank">
+                        <span class="icon"><i class="far fa-envelope"></i></span>
+                        <p>contact@shelterevents.com</p>
+                    </a>
                 </div>
+
                 <div class="link_element">
-                    <p id="logo_footer"><img src="logo-pictures/logo2-footer.PNG" alt="Logo_site_web" /></p>
-                    <p>shelterevents.com</p>
-                </div>
-                <div class="link_element">
-                    <p ><a href="insta" target="_blank"><img id="logo_footer" src="logo-pictures/logo3-footer.PNG" alt="Logo_insta" /></p>
-                    <p>@shelter_events</p></a>
+                    <a href="#" target="_blank">
+                        <span class="icon"><i class="fab fa-instagram"></i></span>
+                        <p>@shelter_events</p>
+                    </a>
                 </div>
             </div>
 
@@ -105,5 +115,9 @@
             </div>
 
         </footer>
+
+    </body>
+
+</html>
 
           

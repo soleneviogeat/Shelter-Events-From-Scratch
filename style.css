@@ -1,33 +1,41 @@
-/* Typographies 
+/* Typographies */
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
-</style>
+@font-face {
+    font-family: 'Vidaloka';
+    src: url('https://fonts.gstatic.com/s/vidaloka/v13/7cHrv4c3ipenMKlEavs7wH8.woff2');
+} 
 
-font-family: 'Vidaloka', serif;
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-</style>
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(https://fonts.gstatic.com/s/playfairdisplay/v25/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDXbtM.woff2) format('woff2');
+}
 
-font-family: 'Playfair Display', serif;
 
-<style>
-@import url('https://fonts.googleapis.com/css2? family= Clicker+Script & display=swap');
-</style>
+@font-face {
+    font-family: 'Clicker Script';
+    src: url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
+} 
 
-font-family : 'Clicker Script', cursif ;
-*/
+
+
 /* Eléments principaux de la page */
 
-#bloc_page
-{
-    margin: auto;
-    flex-direction: column;
-}
 
 body
 {   margin: auto;
+    flex-direction: column;
+    font-family: 'Playfair Display', sherif;
+}
+
+h1
+{   font-size: 30px;
+    text-align: center;
+    color: #6733CF;
+    text-decoration: underline;
+    letter-spacing: 0.1em;
+    margin-bottom: 60px;
+    font-family: 'Vidaloka', sherif;
 }
 
 
@@ -37,6 +45,10 @@ header
 {
     display: flex;
     justify-content: space-between;
+    background-color: #dee4ff;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
 }
 
 #logo
@@ -53,12 +65,6 @@ header
     height: 100px;
 }
 
-#bloc_page
-{   background-color: #dee4ff;
-    position: fixed !important;
-    top: 0;
-    width: 100%;
-}
 
 /* Navigation */
 
@@ -82,10 +88,16 @@ nav a
     color: #181818;
     padding-bottom: 3px;
     text-decoration: none;
+    font-family: 'Playfair Display';
 }
 
 nav a:hover
 {
+    color: #ffffff;
+}
+
+nav a.active
+{   background-color: #6733CF;
     color: #ffffff;
 }
 
@@ -109,7 +121,7 @@ nav
     font-weight: bold;
     text-align: center;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    border-radius: 42%;
+    border-radius: 5%;
     font-size: 1.3em;
     padding-bottom: 3px;
     text-decoration: none;
@@ -152,15 +164,22 @@ figure
     color: #6733CF;
     font-size: 30px;
     text-shadow: 1px 1px 2px white;
+    font-family: 'Vidaloka', serif;
 }
 
 
 /* Presentation */
 
 #presentation
-{
-    flex: 1.2;
+{   margin-top: 80px;
     display: flex;
+    flex-direction: column;
+}
+
+.detail_presentation
+{
+    display: flex;
+    flex-direction: row;
     align-items: center;
     margin-top: 80px;
     color: #6733CF;
@@ -169,19 +188,21 @@ figure
     background-color: white
 }
 
+
 #presentation img
 {   width: 35%;
 }
 
-#presentation article
+#presentation aside
 {   width: 65%;
     font-size: 23px;
     text-align: center;
     margin-left: 15px;
     margin-top: 60px;
+
 }
 
-article a {
+aside a {
     color: #6733CF;
 }
 
@@ -192,14 +213,6 @@ article a {
 {   margin-top: 80px;
 }
 
-#services h1
-{   font-size: 30px;
-    text-align: center;
-    color: #6733CF;
-    text-decoration: underline;
-    letter-spacing: 0.15em;
-    margin-bottom: 60px;
-}
 
 #details 
 {   display: flex;
@@ -234,8 +247,7 @@ footer
 {   margin-top: 80px;
     display: flex;
     justify-content: space-between;
-    background-color: #595959;
-    
+    background-color: #bbbbbb;
 }
 
 #lien_footer
@@ -251,13 +263,14 @@ footer
     align-items: center;
 }
 
-.link_element {
-    display: flex;
+.link_element 
+{   display: flex;
     flex-direction: row;   
 }
 
 .link_element p {
     margin-right: 1%;
+    color: #6733CF;
 }
 
 
@@ -268,6 +281,11 @@ footer
 
 #lien_footer a
 {   text-decoration: none;
+}
+
+.icon {
+    font-size: xx-large;
+    color: #6733CF;
 }
 
 
