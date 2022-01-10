@@ -22,17 +22,15 @@
 /* Eléments principaux de la page */
 
 
-body
-{   margin: auto;
+body {   
+    margin: auto;
     flex-direction: column;
     font-family: 'Playfair Display', sherif;
- 
 }
 
 
-
-h1
-{   font-size: 25px;
+h1 {   
+    font-size: 25px;
     text-align: center;
     color: #6733CF;
     text-decoration: underline;
@@ -41,29 +39,36 @@ h1
     font-family: 'Vidaloka', sherif;
 }
 
+.box_rectangular {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin: 60px 60px 60px 60px;   
+    border: 1px solid #bbbbbb;
+    border-radius: 15px;
+}
+
 
 /* Header */
 
-header
-{
+header {
     display: flex;
     justify-content: space-between;
     background-color: #dee4ff;
     position: fixed !important;
     top: 0;
     width: 100%;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 22px 70px 4px;
+
 }
 
-#logo
-{
+#logo {
     display: flex;
     flex-direction: row;
     align-items: baseline;
     width : 15%;
 }
 
-#logo img
-{
+#logo img {
     width: 100px;
     height: 100px;
 }
@@ -136,7 +141,6 @@ nav
 }
 
 
-
 /* Bannière */
 
 #banniere_image
@@ -173,18 +177,13 @@ figure
 
 /* Presentation */
 
-#presentation
-{   
+#presentation {   
     display: flex;
     align-items: center;
     flex-direction: column;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    margin: 60px 60px 60px 60px;   
-    border: 1px solid #bbbbbb;
 }
 
-.detail_presentation
-{
+.detail_presentation {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -194,12 +193,13 @@ figure
 }
 
 
-#presentation img
-{   width: 35%;
+#presentation img {   
+    width: 35%;
+    border-radius: 2% 0% 0% 2%;
 }
 
-#presentation aside
-{   width: 65%;
+#presentation aside {   
+    width: 65%;
     font-size: 21px;
     text-align: center;
     margin: 0px 30px 0px 30px;
@@ -212,15 +212,11 @@ aside a {
 
 /* Services */
 
-#services
-{   
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    margin: 60px 60px 60px 60px;   
-    border: 1px solid #bbbbbb;
+#services {   
     padding: 30px 0 60px 0;
     background: url(logo-pictures/pictures/Photo3.jpg) no-repeat;
     background-size: cover;
-    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.232);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px, inset 0 0 0 2000px rgba(0, 0, 0, 0.232) ;
 }
 
 #details 
