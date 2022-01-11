@@ -1,21 +1,47 @@
 /* Contact */
 
-#formulaire
-{   display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
+/* Paramètres généraux de la page */
+
+section {
+    margin-top: 160px;
 }
 
 
+#formulaire
+{   margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: rgb(252, 248, 237);
+}
+
 #formulaire img
 {   width: 50%;
+    height: 569px;
+    display: block;
+    object-fit: cover;
 }
 
 #formulaire form
 {   width: 50%;
+    height: 100%;
+    font-size: 18px;
+   
+}
+
+legend {
     font-size: 21px;
     text-align: center;
-  
 }
+
+#bouton_radio {
+    margin-top: 10px;
+}
+
+#coordonnees {
+    text-align: center;
+}
+
+
 
