@@ -75,22 +75,19 @@ header {
 
 /* Navigation */
 
-nav ul
-{
+nav ul {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
     margin-top: 30px;
 }
 
-nav li
-{
+nav li {
     width : 15%;
     margin-right: 20px;
 }
 
-nav a
-{
+nav a {
     font-size: 1.3em;
     color: #181818;
     padding-bottom: 3px;
@@ -98,26 +95,24 @@ nav a
     font-family: 'Playfair Display';
 }
 
-nav a:hover
-{
+nav a:hover {
     color: #ffffff;
 }
 
-nav a.active
-{   background-color: #6733CF;
+nav a.active {
+    background-color: #6733CF;
     color: #ffffff;
 }
 
-nav
-{   width: 85%;
+nav {
+    width: 85%;
 }
 
-#titre_principal
-{   width: 15%;
+#titre_principal {
+    width: 15%;
 }
 
-.bouton_menu
-{   
+.bouton_menu {   
     display: block;
     line-height: 40px;
     background-color: white;
@@ -134,16 +129,16 @@ nav
     text-decoration: none;
 }
 
-.bouton_menu:hover 
-{   background-color: #6733CF;
+.bouton_menu:hover { 
+    background-color: #6733CF;
     color: #ffffff;
 }
 
 
 /* Bannière */
 
-#banniere_image
-{   margin-top: 100px;
+#banniere_image { 
+    margin-top: 100px;
     height: 600px;
     width: 100%;
     background: url(logo-pictures/photo-page-accueil.jpg) no-repeat center center;
@@ -152,20 +147,20 @@ nav
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.432);
 }
 
-#banniere_image img
-{   width: 30%;
+#banniere_image img { 
+    width: 30%;
     margin-left: 350px;
     padding-top: 0px;
 }
 
-figure 
-{   margin-bottom: 0px;
+figure {
+    margin-bottom: 0px;
     padding-bottom: 0px;
     height: 250px;
 }
 
- figcaption
-{   margin-left: 350px;
+ figcaption {
+    margin-left: 350px;
     margin-top: 0px;
     color: #6733CF;
     font-size: 30px;
