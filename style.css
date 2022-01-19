@@ -24,7 +24,6 @@
 
 body {   
     margin: auto;
-    flex-direction: column;
     font-family: 'Playfair Display', sherif;
 }
 
@@ -56,7 +55,7 @@ header {
     position: fixed !important;
     top: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 100000;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 22px 70px 4px;
 
 }
@@ -221,15 +220,13 @@ aside a {
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px, inset 0 0 0 2000px rgba(0, 0, 0, 0.232) ;
 }
 
-#details 
-{   
+#details {   
     display: flex;
     justify-content: space-around;
-   
 }
   
-.offres
-{   display: flex;
+.offres{
+    display: flex;
     align-items: center;
     text-align: center;
     font-weight: bold;
