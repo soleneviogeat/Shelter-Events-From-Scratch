@@ -57,7 +57,6 @@ header {
     width: 100%;
     z-index: 100000;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 22px 70px 4px;
-
 }
 
 #logo {
@@ -220,7 +219,7 @@ aside a {
     justify-content: space-around;
 }
   
-.offres{
+.offres {
     display: flex;
     align-items: center;
     text-align: center;
@@ -234,26 +233,22 @@ aside a {
     border: 1.2px solid #6733CF;
 }
 
-.offres a
-{   text-decoration: none;
+.offres a {   text-decoration: none;
     color: #6733CF;
 }
 
 /* Footer */
 
-footer
-{   margin-top: 80px;
+footer {   margin-top: 80px;
     display: flex;
     justify-content: space-between;
     background-color: #FFECC7;
 }
 
-#lien_footer
-{   margin-right: 15px;
+#lien_footer {   margin-right: 15px;
 }
 
-#link
-{     
+#link {     
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -261,8 +256,7 @@ footer
     align-items: center;
 }
 
-.link_element 
-{   display: flex;
+.link_element  {   display: flex;
     flex-direction: row;   
 }
 
@@ -277,8 +271,7 @@ footer
 }
 
 
-#lien_footer a
-{   text-decoration: none;
+#lien_footer a {   text-decoration: none;
 }
 
 .icon {
