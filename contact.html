@@ -36,40 +36,42 @@
       <div id="formulaire">
         <form method="post" action="#">
           <h1>Contactez-nous pour que votre idée devienne réalité</h1>
-          <fieldset id="coordonnees">
-            <div class="contact-info">  
-              <input type="text" placeholder="Nom" autofocus required/>
-              <input type="text" placeholder="Prénom" required/>
-              <input type="text" placeholder="Adresse mail" required/>
-            </div>
+          
+          <fieldset class="contact-info">  
+            <input type="text" placeholder="Nom*" autofocus required/>
+            <input type="text" placeholder="Prénom" required/>
+            <input type="text" placeholder="Adresse mail*" required/>
           </fieldset>
 
-          <fieldset>
-            <div class="colum-form">
-              <div class="contact-evt">
-                <p>Date souhaitée :
-                  <input type="date" placeholder="Date souhaitée de l'événement"/>
-                </p>     
-                <p>
-                  Type d'événement souhaité :<br />
-                  <input id="bouton_radio" type="radio" name="type" value="anniversaire" /> <label>Anniversaire</label><br />
-                  <input id="bouton_radio" type="radio" name="type" value="evjf" /> <label>EVJF</label><br />
-                  <input id="bouton_radio" type="radio" name="type" value="gender reveal" /> <label>Gender Reveal</label><br />
-                  <input id="bouton_radio" type="radio" name="type" value="brunch privé" /> <label>Brunch privé</label>
-                </p>
-              </div>
-              <div class="contact-evt">
-                <input type="number" placeholder="Nombre d'invités" required/>
-                <input type="text" placeholder="Lieu de l'événement" required/>
-              </div>
+          <fieldset class="colum-form">
+
+
+            <div class="contact-evt">
+              <p>Type d'événement* :<br />
+                <input class="bouton_radio" type="radio" name="type" value="anniversaire" /> <label>Anniversaire</label><br />
+                <input class="bouton_radio" type="radio" name="type" value="evjf" /> <label>EVJF</label><br />
+                <input class="bouton_radio" type="radio" name="type" value="gender reveal" /> <label>Gender Reveal</label><br />
+                <input class="bouton_radio" type="radio" name="type" value="brunch privé" /> <label>Brunch privé</label>
+              </p>
             </div>
-            <div>
-              <textarea name="" placeholder="Description de votre événement" cols="30" rows="10"></textarea>
-            </div>  
+
+
+            <div class="contact-evt">
+              <p class="date">Date souhaitée* : <input type="date" placeholder="Date souhaitée de l'événement"/></p>
+              <input type="number" placeholder="Nombre d'invités*" required/>
+              <input type="text" placeholder="Lieu de l'événement" required/>
+            </div>
+              
+            <div class="contact-evt">
+              <textarea name="" placeholder="Description de votre événement"></textarea>
+            </div>
+ 
             
           </fieldset>
-          <div id="coordonnees">
-            <input id="submit" type="submit" value="Envoyer"/>
+
+
+          <div class="bouton">
+            <input class="submit" type="submit" value="Envoyer"/>
           </div>
         </form>
         

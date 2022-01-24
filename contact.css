@@ -7,9 +7,9 @@ section {
 }
 
 form {  
-    background: url(logo-pictures/wetransfer_img_1210-jpg_2022-01-13_0808/DSC_2508.jpg) no-repeat;
+    background: url(logo-pictures/wetransfer_img_1210-jpg_2022-01-13_0808/IMG_9657.jpeg) no-repeat center;
     background-size: cover;
-    
+    background-attachment: fixed;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px, inset 0 0 0 2000px rgba(0, 0, 0, 0.250);
 }
 
@@ -23,53 +23,72 @@ form {
 
 #formulaire form
 {   width: 65%;
-    height: 100%;
+    height: 500px;
     font-size: 18px;
 }
 
-fieldset {
-    border: none;
-}
+/* Première partie formulaire : informations de contact */
 
-
-#bouton_radio {
-    margin-top: 10px;
-}
-
-#coordonnees {
-    text-align: center;
-}
 
 .contact-info {
+    border: none;
+    margin: 40px 0px 20px 0px;
     display: flex;
     justify-content: space-between;
     color: black;
 }
 
+.contact-info input {
+    width: 25%;
+    height: 30px;
+    border: 2px black solid;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/* Deuxième partie formulaire : informations sur l'événement */
+
 .colum-form {
     display: flex;
     flex-direction: row;
-}
-
-.contact-evt1 {
-    display: flex;
-    flex-direction: column;
-    color: black;
+    justify-content: space-between;
+    border: none;
 }
 
 .contact-evt {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     color: black;
-    width: 50%;
+    font-weight: bold;
+    width: 100%;
 }
 
-input, textarea {
-    border: none;
+.contact-evt input {
+    height: 30px;
+    border: 2px black solid;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.bouton_radio {
+    margin-top: 10px;
+    width: 22px;
+    color: #6733CF;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
 }
 
 textarea {
-    width: 100%;
+    width: 90%;
+    height: 140px;
+    border: 2px black solid;
+    font-weight: bold;
+    border-radius: 10px;
 }
 
 ::placeholder {
@@ -77,12 +96,31 @@ textarea {
     font-family: 'Playfair Display', sherif;
 }
 
-#submit {
+/* Troisième partie : bouton "Envoyer" */
+
+.bouton {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.submit {
     border: none;
-    text-align: center;
     font-size: 20px;
+    width: 30%;
+    height: 40px;
+    border: 2px black solid;
+    font-weight: bold;
+    border-radius: 10px;
     color: black;
     font-family: 'Playfair Display', sherif;
+}
+
+.submit:hover {
+    stroke-width: 5;
+    stroke-dasharray: 15, 310;
+    stroke-dashoffset: 48;
+    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 
