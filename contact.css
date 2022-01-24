@@ -50,9 +50,24 @@ form {
 
 .colum-form {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    margin-right: 0px;
+    padding-right: 0px;
     border: none;
+}
+
+.contact-evt-type {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-weight: bold;
+    width: 100%;
+}
+
+.contact-evt-type input {
+    width: 40%;
+    height: 23px;
+    font-weight: bold;
 }
 
 .contact-evt {
@@ -66,6 +81,7 @@ form {
 }
 
 .contact-evt input {
+    width: 75%;
     height: 30px;
     border: 2px black solid;
     font-weight: bold;
@@ -81,9 +97,14 @@ form {
 .date {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 60%;
 }
 
 textarea {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     width: 90%;
     height: 140px;
     border: 2px black solid;
@@ -104,19 +125,24 @@ textarea {
     margin-top: 45px;
 }
 
-.submit {
+.bouton a {
+    display: flex;
+    justify-content: center;
     border: none;
-    font-size: 20px;
     width: 30%;
     height: 40px;
     border: 2px black solid;
-    font-weight: bold;
     border-radius: 10px;
-    color: black;
-    font-family: 'Playfair Display', sherif;
 }
 
-.submit:hover {
+.submit {
+    font-weight: bold;
+    color: black;
+    font-family: 'Playfair Display', sherif;
+    font-size: 20px;
+}
+
+.bouton a:hover {
     stroke-width: 5;
     stroke-dasharray: 15, 310;
     stroke-dashoffset: 48;
