@@ -7,24 +7,24 @@ section {
 }
 
 form {  
-    background: url(logo-pictures/wetransfer_img_1210-jpg_2022-01-13_0808/IMG_9657.jpeg) no-repeat center;
+    background: url(/logo-pictures/wetransfer_img_1210-jpg_2022-01-13_0808/photo-form-contact.jpg) center;
     background-size: cover;
     background-attachment: fixed;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px, inset 0 0 0 2000px rgba(0, 0, 0, 0.250);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px, inset 0 0 0 2000px rgba(0, 0, 0, 0.690);
+    height: auto;
 }
 
 #formulaire {   
+    height: 650px;
     margin-top: 60px;
     display: flex;
-    align-items: center;
     justify-content: space-around;
-    flex-direction: row;
 }
 
 #formulaire form
 {   width: 65%;
-    height: 500px;
     font-size: 18px;
+    padding-bottom: 15px;
 }
 
 /* Première partie formulaire : informations de contact */
@@ -32,7 +32,7 @@ form {
 
 .contact-info {
     border: none;
-    margin: 40px 0px 20px 0px;
+    margin: 60px 0px 40px 0px;
     display: flex;
     justify-content: space-between;
     color: black;
@@ -59,16 +59,23 @@ form {
 .contact-evt-type {
     display: flex;
     flex-direction: column;
-    color: black;
+    justify-content: space-around;
+    align-items: center;
+    letter-spacing: 3px;
+    font-size: 18px;
+    color: #FFECC7;
     font-weight: bold;
     width: 100%;
 }
 
-.contact-evt-type input {
-    width: 40%;
-    height: 23px;
+.bouton_radio {
+    display: flex;
+    margin-top: 25px;
+    color: #FFECC7;
     font-weight: bold;
+    height: 25px;
 }
+
 
 .contact-evt {
     display: flex;
@@ -88,25 +95,26 @@ form {
     border-radius: 10px;
 }
 
-.bouton_radio {
-    margin-top: 10px;
-    width: 22px;
-    color: #6733CF;
-}
 
 .date {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #FFECC7;
+    letter-spacing: 3px;
     width: 60%;
+}
+
+.date input {
+    margin-top: 10px;
 }
 
 textarea {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 90%;
-    height: 140px;
+    width: 70%;
+    height: 190px;
     border: 2px black solid;
     font-weight: bold;
     border-radius: 10px;
@@ -115,38 +123,72 @@ textarea {
 ::placeholder {
     color: black;
     font-family: 'Playfair Display', sherif;
+    letter-spacing: 3px;
+    text-align: center;
 }
 
 /* Troisième partie : bouton "Envoyer" */
 
-.bouton {
+.container {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
-    margin-top: 45px;
-}
-
-.bouton a {
-    display: flex;
-    justify-content: center;
-    border: none;
-    width: 30%;
-    height: 40px;
-    border: 2px black solid;
-    border-radius: 10px;
-}
-
-.submit {
+    align-items: flex-end;
+    margin-top: 130px;
+  }
+  
+  .center {
+    width: 180px;
+    height: 60px;
+    position: absolute;
+    border-radius: 20px;
+  }
+  
+  .btn {
+    width: 180px;
+    height: 60px;
     font-weight: bold;
     color: black;
     font-family: 'Playfair Display', sherif;
+    letter-spacing: 3px;
     font-size: 20px;
-}
-
-.bouton a:hover {
-    stroke-width: 5;
-    stroke-dasharray: 15, 310;
-    stroke-dashoffset: 48;
-    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
-}
-
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid white;
+    outline: none;
+    transition: 1s ease-in-out;
+    border-radius: 20px;
+  }
+  
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+    border-radius: 20px;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background: #6733CF;
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }
 
