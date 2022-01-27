@@ -66,7 +66,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-   width: 15%;
+    width: 15%;
 }
 
 .logo img {
@@ -236,7 +236,8 @@ aside a {
     border: 1.2px solid #6733CF;
 }
 
-.offres a {   text-decoration: none;
+.offres a {   
+    text-decoration: none;
     color: #6733CF;
 }
 
@@ -260,6 +261,13 @@ footer {
     width: 20%;
 }
 
+.link a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+}
+
 h2  {
     font-size: 19px;
     text-decoration: underline;
@@ -276,15 +284,13 @@ h2  {
     align-items: center;
 }
 
-.btn-footer {
-    color: grey;      
+.btn-footer {   
     text-decoration: none;
     border: 1px solid;
     border-radius: 43px;
-    font-size: 13px;
+    font-size: 15px;
     padding: 7px 30px;
     margin: 5px;
-    
 }
 
 .btn-footer:hover {
@@ -303,40 +309,70 @@ h2  {
 footer ul li {
     list-style: none;
     display: block;
+    margin-bottom: 10px;
 }
 
 footer ul  {
-    padding-left: ;
     display: flex;
     flex-direction: column;
 }
 
-footer ul  li a{
+footer ul li a{
     text-decoration: none;
-    color: grey;
-    text-decoration:none;
-}
-
-a:hover {
-    text-decoration: none;
-    color: #f5f5f5 !important;
 }
 
 
     /* Newsletter */
 
 
+.social {
+    margin-top: 5px;
+}
+
 .social .fa {
-    color: grey;
     font-size: 22px;
-    padding: 10px 15px;
-    background: #3c3c3c;
+    text-decoration: none;
 }
 
 
 .icon {
     font-size: xx-large;
+    padding-right: 5px;
+}
+
+
+/* Page Galerie Photos - mise en forme du bouton SUIVEZ NOUS SUR INSTA */
+
+
+
+aside {
+    margin-top: 70px;
+}
+
+.insta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.insta a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    color: #6733CF;
+    font-size: 25px;
+    border: solid #6733CF 2px;
+    padding: 0px 30px;
+    border-radius: 60px;
+}
+
+.lg-insta {
+    font-size: 65px;
+    padding-right: 30px;
     color: #6733CF;
 }
+
 
 
