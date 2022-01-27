@@ -7,11 +7,12 @@ section {
 }
 
 form {  
-    background: url(logo-pictures/wetransfer_img_1210-jpg_2022-01-13_0808/photo-form-contact.jpg) center;
+    background: linear-gradient(70deg, #6733CF, #dee4ff);
+    /* background: url(logo-pictures/wetransfer_img_1210-jpg_2022-01-13_0808/photo-form-contact.jpg) center;
     background-size: cover;
-    background-attachment: fixed;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px, inset 0 0 0 2000px rgba(0, 0, 0, 0.690);
-    height: auto;
+    background-attachment: fixed; */
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px  /* , inset 0 0 0 2000px rgba(0, 0, 0, 0.690);
+    height: auto; */
 }
 
 #formulaire {   
@@ -63,7 +64,7 @@ form {
     align-items: center;
     letter-spacing: 3px;
     font-size: 18px;
-    color: #FFECC7;
+    color: white;
     font-weight: bold;
     width: 100%;
 }
@@ -71,7 +72,7 @@ form {
 .bouton_radio {
     display: flex;
     margin-top: 25px;
-    color: #FFECC7;
+    color: white;
     font-weight: bold;
     height: 25px;
 }
@@ -100,7 +101,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #FFECC7;
+    color: white;
     letter-spacing: 3px;
     width: 60%;
 }
@@ -118,6 +119,7 @@ textarea {
     border: 2px black solid;
     font-weight: bold;
     border-radius: 10px;
+    font-size: 50px;
 }
 
 ::placeholder {
@@ -126,6 +128,7 @@ textarea {
     letter-spacing: 3px;
     text-align: center;
 }
+
 
 /* Troisième partie : bouton "Envoyer" */
 
@@ -153,13 +156,14 @@ textarea {
     width: 180px;
     height: 60px;
     font-weight: bold;
-    color: black;
     font-family: 'Playfair Display', sherif;
     letter-spacing: 3px;
     font-size: 20px;
     cursor: pointer;
     background: transparent;
     border: 1px solid white;
+    background-color: white;
+    color: #6733CF;
     outline: none;
     transition: 1s ease-in-out;
     border-radius: 20px;
@@ -179,7 +183,8 @@ textarea {
   
   .btn:hover {
     transition: 1s ease-in-out;
-    background: #6733CF;
+    background-color: #6733CF;
+    color: white;
   }
   
   .btn:hover svg {
@@ -187,8 +192,8 @@ textarea {
   }
   
   .btn span {
-    color: white;
     font-size: 18px;
-    font-weight: 100;
+    font-weight: bold;
   }
+
 

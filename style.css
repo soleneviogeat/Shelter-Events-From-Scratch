@@ -21,6 +21,9 @@
 
 /* Eléments principaux de la page */
 
+html {
+    background-color: rgb(252, 248, 237);
+}
 
 body {   
     margin: auto;
@@ -59,14 +62,14 @@ header {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 22px 70px 4px;
 }
 
-#logo {
+.logo {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
-    width : 15%;
+    align-items: center;
+   width: 15%;
 }
 
-#logo img {
+.logo img {
     width: 100px;
     height: 100px;
 }
@@ -181,12 +184,12 @@ figure {
     flex-direction: row;
     color: #6733CF;
     font-size: 0.9em;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 
 #presentation img {   
-    width: 35%;
+    width: 25%;
     border-radius: 2% 0% 0% 2%;
 }
 
@@ -209,7 +212,7 @@ aside a {
 
 #services {   
     padding: 30px 0 60px 0;
-    background: url(logo-pictures/pictures/Photo3.jpg) no-repeat;
+    background: url(logo-pictures/wetransfer_img_1210-jpg_2022-01-13_0808/DSC_2524.jpg) no-repeat center center;
     background-size: cover;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px, inset 0 0 0 2000px rgba(0, 0, 0, 0.232) ;
 }
@@ -239,40 +242,97 @@ aside a {
 
 /* Footer */
 
-footer {   margin-top: 80px;
-    display: flex;
-    justify-content: space-between;
-    background-color: #FFECC7;
-}
+    /* Eléments généraux footer */
 
-#lien_footer {   margin-right: 15px;
-}
-
-#link {     
+footer {   
+    margin-top: 80px;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    width: 70%;
+    align-content: space-around;
+    background-color: #FFECC7;
+    font-weight: bold;
+}
+
+.link {         /* mise en page div */                 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+h2  {
+    font-size: 19px;
+    text-decoration: underline;
+    margin-bottom: 0%;
+}
+
+
+    /* A propos de nous */
+
+.about-us-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
 
-.link_element  {   display: flex;
-    flex-direction: row;   
-}
-
-.link_element p {
-    margin-right: 1%;
-    color: #6733CF;
-}
-
-
-.link_element a {
+.btn-footer {
+    color: grey;      
     text-decoration: none;
+    border: 1px solid;
+    border-radius: 43px;
+    font-size: 13px;
+    padding: 7px 30px;
+    margin: 5px;
+    
+}
+
+.btn-footer:hover {
+   text-decoration: none;
+}
+
+::placeholder {
+    font-size: 10px;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+    /* Aide */
+
+
+footer ul li {
+    list-style: none;
+    display: block;
+}
+
+footer ul  {
+    padding-left: ;
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul  li a{
+    text-decoration: none;
+    color: grey;
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f5f5f5 !important;
 }
 
 
-#lien_footer a {   text-decoration: none;
+    /* Newsletter */
+
+
+.social .fa {
+    color: grey;
+    font-size: 22px;
+    padding: 10px 15px;
+    background: #3c3c3c;
 }
+
 
 .icon {
     font-size: xx-large;
