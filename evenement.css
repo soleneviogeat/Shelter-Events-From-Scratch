@@ -1,5 +1,5 @@
 
-/* Organisation d'un événement privé */
+/* Organisation d'un événement privé - evenement.html */
 
 section {
     margin-top: 140px;
@@ -71,5 +71,32 @@ margin-bottom: 20px;
 
 .lien-evenement a {
     color: black;
+    font-weight: bold;
+}
+
+
+/* Organisation d'un déjeuné privé - brunch.html */
+
+.detail-evenement {
+    width: 100%;
+}
+.detail-evenement p {
+    margin-bottom: 0px;
+}
+
+.list-evenement{
+    display: flex;
+    flex-flow: wrap column;
+    align-items: flex-start;    
+}
+
+.list-evenement p {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.envies-evenement {
+    color: black;
+    font-family: 'Clicker Script';
     font-weight: bold;
 }
