@@ -1,0 +1,38 @@
+
+/* Nos offres  */
+
+section {
+    margin-top: 160px;
+}
+  
+.bulle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.bulle img {
+    border-radius: 500px;
+    height: 350px;
+    width: 350px;
+    border: 2px solid #6733CF;
+}
+
+.bulle p {
+   text-align: center;
+   margin-top: 50px;
+   margin-left: 100px;
+   font-weight: bold;
+   font-size: 18px;
+}
+
+.bulle a {
+    color: #6733CF;
+   
+    font-size: 27px;
+    margin-bottom: 100px;
+}
+
+
+  

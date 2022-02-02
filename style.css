@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Vidaloka';
-    src: url('https://fonts.gstatic.com/s/vidaloka/v13/7cHrv4c3ipenMKlEavs7wH8.woff2');
+    src: url(https://fonts.gstatic.com/s/vidaloka/v13/7cHrv4c3ipenMKlEavs7wH8.woff2) format('woff2');
 } 
 
 
@@ -14,9 +14,8 @@
 
 @font-face {
     font-family: 'Clicker Script';
-    src: url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
-} 
-
+    src : url(https://fonts.gstatic.com/s/clickerscript/v11/raxkHiKPvt8CMH6ZWP8PdlEq71rR0TukKQ.woff2) format('woff2');
+}
 
 
 /* Eléments principaux de la page */
@@ -37,7 +36,6 @@ h1 {
     color: #6733CF;
     text-decoration: underline;
     letter-spacing: 0.1em;
-    background-color: 0 195 255;
     font-family: 'Vidaloka', sherif;
 }
 
@@ -186,7 +184,6 @@ figure {
     font-size: 0.9em;
     justify-content: space-between;
 }
-
 
 #presentation img {   
     width: 25%;
