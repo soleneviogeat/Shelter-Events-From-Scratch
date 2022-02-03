@@ -2,7 +2,7 @@
 /* Organisation d'un événement privé - evenement.html */
 
 section {
-    margin-top: 140px;
+    margin-top: 160px;
 }
 
 h4 {
@@ -23,6 +23,7 @@ h3 {
     display: flex;
     flex-direction: row;
     margin-top: 50px;
+    padding-left: 10px;
 }
 
 /* Mise en page des images */
