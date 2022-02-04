@@ -6,6 +6,15 @@ section {
     margin-top: 160px;
 }
 
+.text-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 24px;
+}
+
+/*
 form {  
     background: linear-gradient(70deg, #6733CF, #dee4ff);
     /* background: url(logo-pictures/wetransfer_img_1210-jpg_2022-01-13_0808/photo-form-contact.jpg) center;
@@ -15,6 +24,7 @@ form {
     height: auto; */
 }
 
+/*
 #formulaire {   
     height: 650px;
     margin-top: 60px;
@@ -29,7 +39,7 @@ form {
 
 /* Première partie formulaire : informations de contact */
 
-
+/*
 .contact-info {
     border: none;
     margin: 60px 0px 40px 0px;
@@ -47,7 +57,7 @@ form {
 }
 
 /* Deuxième partie formulaire : informations sur l'événement */
-
+/*
 .colum-form {
     display: flex;
     justify-content: space-between;
@@ -130,7 +140,7 @@ textarea {
 
 
 /* Troisième partie : bouton "Envoyer" */
-
+/*
 .container {
     width: 400px;
     height: 400px;
@@ -194,5 +204,6 @@ textarea {
     font-size: 18px;
     font-weight: bold;
   }
+  */
 
 

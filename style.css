@@ -231,12 +231,11 @@ aside a {
     width: 250px;
     background-color: white;
     border: 1.2px solid #6733CF;
-}
-
-.offres a {   
     text-decoration: none;
     color: #6733CF;
 }
+
+
 
 /* Footer */
 
@@ -364,10 +363,16 @@ aside {
     border-radius: 60px;
 }
 
-.lg-insta {
+.fa-brands fa-instagram-square {
     font-size: 65px;
     padding-right: 30px;
     color: #6733CF;
+}
+
+.insta a:hover {
+    transform: scale(1.12);
+    cursor: pointer;
+    transition: transform 0.4s;
 }
 
 

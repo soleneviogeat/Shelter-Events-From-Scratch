@@ -59,11 +59,13 @@ margin-bottom: 20px;
     width: 40%;
     border: black solid 1px;
     background-color: rgb(255, 255, 255);
+    padding: 0px 10px;
 }
 
 .btn-evenement a {
     color: black;
     font-family: 'Clicker Script';
+    font-size: 40px;
 }
 
 .lien-evenement {
@@ -105,7 +107,10 @@ margin-bottom: 20px;
 }
 
 .envies-evenement {
+    display: flex;
+    justify-content: center;
     color: black;
     font-family: 'Clicker Script';
     font-weight: bold;
+    font-size: 40px;
 }

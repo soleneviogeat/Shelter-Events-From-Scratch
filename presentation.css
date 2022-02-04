@@ -3,8 +3,8 @@
 /* Bannière de présentation */
 
 #banniere_page1 {
-    margin: 105px 0px;
-    padding-left: 10px;
+    margin: 160px 0px;
+    padding-left: 70px;
 }
 
 .imgdiv  {
@@ -18,13 +18,14 @@
 }
 
 #banniere_page1 article  {
-    width: 70%;
-    font-size: 19px;
-    text-align: center;
+    width: 60%;
+    font-size: 30px;
     padding: 0% 5%;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    padding-left: 0%;
+    color: black;
 }
 
 /* Animation des cartes qui se retournent */
@@ -87,7 +88,6 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
-    color: #6733CF;
     font-size: 20px;
 
 }
