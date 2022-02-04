@@ -354,7 +354,6 @@ aside {
 .insta a {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     text-decoration: none;
     color: #6733CF;
     font-size: 25px;
