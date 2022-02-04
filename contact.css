@@ -14,6 +14,20 @@ section {
     font-size: 24px;
 }
 
+.text-contact div {
+    padding: 0px 30px;
+}
+
+.text-contact a {
+    color: #6733CF;
+    font-weight: bolder;
+}
+
+.titre-contact {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
 /*
 form {  
     background: linear-gradient(70deg, #6733CF, #dee4ff);
