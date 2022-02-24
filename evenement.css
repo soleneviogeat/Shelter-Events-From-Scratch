@@ -15,15 +15,15 @@ h4 {
 h3 {
     text-align: center;
     font-size: 28px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     margin-top: 0px;
 }
 
 .evenement {
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
-    padding-left: 10px;
+    margin-top: 80px;
+    padding-left: 70px;
 }
 
 /* Mise en page des images */
@@ -52,6 +52,7 @@ margin-bottom: 20px;
 .text-evenement p {
     text-align: center;
     font-size: 28px;
+    margin-top: 0;
 }
 
 .btn-evenement {
@@ -89,21 +90,24 @@ margin-bottom: 20px;
 
 .detail-evenement {
     width: 100%;
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
 }
 .detail-evenement p {
-   font-size: 28px;
-    margin-bottom: 0px;
+    font-size: 28px;
+    margin-bottom: 30px;
 }
 
 .list-evenement{
     display: flex;
     flex-flow: wrap column;
-    align-items: flex-start;    
+    align-items: center;    
 }
 
 .list-evenement p {
     font-size: 25px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 .envies-evenement {
@@ -113,4 +117,5 @@ margin-bottom: 20px;
     font-family: 'Clicker Script';
     font-weight: bold;
     font-size: 40px;
+    margin-bottom: 50px;
 }
