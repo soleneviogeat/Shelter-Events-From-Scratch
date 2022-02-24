@@ -12,8 +12,9 @@ section {
 }
 
  .bulle img {
-    width: 25%;
-    clip-path: ellipse(50% 34%);
+    height: 450px;
+    width: 38%;
+    clip-path: circle(38% at 50% 50%);
     object-fit: cover;   
 }
 
@@ -25,6 +26,7 @@ section {
 
 .detail-text-bulle {
     text-align: center;
+    margin-top: 15px;
     margin-left: 25px;
     width: 28%;
     font-weight: bold;

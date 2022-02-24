@@ -187,11 +187,12 @@ figure {
     color: #6733CF;
     font-size: 0.9em;
     justify-content: space-between;
+    padding-left: 70px;
 }
 
 #presentation img {   
     width: 25%;
-    border-radius: 2% 0% 0% 2%;
+    /* border-radius: 2% 0% 0% 2%; */
 }
 
 #presentation aside {   
