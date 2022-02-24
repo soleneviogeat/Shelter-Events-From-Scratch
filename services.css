@@ -11,12 +11,19 @@ section {
     justify-content: space-around;
 }
 
- .bulle img {
+.bulle a {
+    display: flex;
     height: 450px;
-    width: 38%;
-    clip-path: circle(38% at 50% 50%);
+    width: 40%;
+    
+}
+
+ .bulle img {
+    width: 100%;
+    clip-path: circle(34% at 50% 50%);
     object-fit: cover;   
 }
+
 
 .text-bulle {
    display: flex;
