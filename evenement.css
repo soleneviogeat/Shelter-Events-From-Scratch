@@ -90,11 +90,11 @@ margin-bottom: 20px;
 
 .detail-evenement {
     width: 100%;
-    display: flex;
-    flex-flow: wrap column;
-    align-items: center;
 }
+
 .detail-evenement p {
+    display: flex;
+    align-items: flex-start; 
     font-size: 28px;
     margin-bottom: 30px;
 }
@@ -102,7 +102,7 @@ margin-bottom: 20px;
 .list-evenement{
     display: flex;
     flex-flow: wrap column;
-    align-items: center;    
+    align-items: flex-start;    
 }
 
 .list-evenement p {

@@ -34,7 +34,6 @@ h1 {
     font-size: 55px;
     text-align: center;
     color: #6733CF;
-    
     font-family: 'Vidaloka', sherif;
 }
 
@@ -164,7 +163,7 @@ figure {
     height: 250px;
 }
 
- figcaption {
+figcaption {
     margin-left: 250px;
     color: #6733CF;
     font-size: 50px;
@@ -251,7 +250,8 @@ footer {
     display: flex;
     justify-content: space-around;
     align-content: space-around;
-    background-color: #FFECC7;
+    background-color:/*#FFECC7*/#6733CF;
+    color: white;
     font-weight: bold;
 }
 
@@ -266,7 +266,7 @@ footer {
     display: flex;
     flex-direction: row;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 h2  {
