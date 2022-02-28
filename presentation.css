@@ -30,6 +30,11 @@
 
 /* Animation des cartes qui se retournent */
 
+.team {
+    background-color: #e9daca;
+    padding: 80px 0px;
+}
+
 #card_page1  {
     display: flex;
     justify-content: space-around;

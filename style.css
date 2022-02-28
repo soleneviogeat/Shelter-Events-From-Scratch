@@ -21,7 +21,7 @@
 /* Eléments principaux de la page */
 
 html {
-    background-color: rgb(252, 248, 237);
+    background-color: #DEE4FF /* rgb(252, 248, 237) */;
 }
 
 body {   
@@ -33,8 +33,9 @@ body {
 h1 {  
     font-size: 55px;
     text-align: center;
-    color: #6733CF;
-    font-family: 'Vidaloka', sherif;
+    color: #E9DACA/* #6733CF */;
+    text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em white;
+    font-family: 'Vidaloka', serif;
 }
 
 .souligne {
@@ -56,7 +57,7 @@ h1 {
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #dee4ff;
+    background-color: #FCF8ED/* #dee4ff */;
     position: fixed !important;
     top: 0;
     width: 100%;
@@ -143,7 +144,7 @@ nav {
 
 #banniere_image { 
     margin-top: 100px;
-    height: 600px;
+    height: 500px;
     width: 100%;
     background: url(logo-pictures/photo-page-accueil.jpg) no-repeat center center;
     background-size: cover;
@@ -152,7 +153,7 @@ nav {
 }
 
 #banniere_image img { 
-    width: 30%;
+    width: 20%;
     margin-left: 350px;
     padding-top: 0px;
 }
@@ -164,9 +165,9 @@ figure {
 }
 
 figcaption {
-    margin-left: 250px;
+    margin-left: 300px;
     color: #6733CF;
-    font-size: 50px;
+    font-size: 40px;
     text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em white;
     font-family: 'Vidaloka', serif;
 }
@@ -178,40 +179,55 @@ figcaption {
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: #E9DACA;
+    margin: 0;
 }
 
 .detail_presentation {
     display: flex;
     flex-direction: row;
-    color: #6733CF;
+    color: #595959;
     font-size: 0.9em;
     justify-content: space-between;
-    padding-left: 70px;
+    margin: 0px 200px;
 }
 
 #presentation img {   
     width: 25%;
-    /* border-radius: 2% 0% 0% 2%; */
+    margin: 50px;
+    border: #595959 3px solid;
+    border-radius: 35% 10%;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 33px;
 }
 
 #presentation aside {   
     width: 65%;
-    font-size: 30px;
+    font-size: 27px;
     text-align: center;
-    margin: 0px 30px 0px 30px;
+    margin: 0px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background-color: #E9DACA;
 }
 
 aside a {
-    color: #6733CF;
+    color: #595959;
 }
 
 
 /* Services */
 
-#services {   
+.gg {
+    margin-top: 80px;
+}
+
+/* #services {   
     padding: 30px 0 60px 0;
     background: url(logo-pictures/wetransfer_img_1210-jpg_2022-01-13_0808/DSC_2524.jpg) no-repeat center center;
     background-size: cover;
@@ -240,13 +256,26 @@ aside a {
 }
 
 
+/* Gallerie photos */
+
+.pictures {
+    background-color: #595959;
+    padding: 10px 10px ;
+}
+
+
+/* Contact */
+
+.contact {
+    margin-top: 0px;
+}
+
 
 /* Footer */
 
     /* Eléments généraux footer */
 
 footer {   
-    margin-top: 80px;
     display: flex;
     justify-content: space-around;
     align-content: space-around;
@@ -275,8 +304,8 @@ h2  {
     margin-bottom: 0%;
 }
 
-
     /* A propos de nous */
+
 
 .link p {
     text-align: center;
@@ -351,6 +380,8 @@ footer ul li a{
 
 aside {
     margin-top: 70px;
+    background-color: #;
+    padding: 50px 0px
 }
 
 .insta {
