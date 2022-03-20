@@ -259,8 +259,9 @@ aside a {
 /* Gallerie photos */
 
 .pictures {
-    background-color: #595959;
+    background-color: #E9DACA;
     padding: 10px 10px ;
+    margin-bottom: 10px;
 }
 
 
@@ -355,6 +356,11 @@ footer ul li a{
     text-decoration: none;
 }
 
+@media all and (max-device-width: 680px) {
+    
+    
+}
+
 
     /* Newsletter */
 
@@ -413,6 +419,8 @@ aside {
     cursor: pointer;
     transition: transform 0.4s;
 }
+
+
 
 
 

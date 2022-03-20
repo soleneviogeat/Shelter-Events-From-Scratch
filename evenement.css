@@ -1,4 +1,28 @@
 
+  /* Responsive */
+
+
+@media all and (max-device-width: 480px) {
+    section {
+        margin-right: 30px;
+    }
+    div.evenement {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    div.img-evenement, div.text-evenement, 
+    div.btn-evenement, div.lien-evenement  {
+        flex: 100%;
+        -ms-flex: 100%;
+        max-width: 100%;
+        width: auto;
+    }
+    div.img-evenement:nth-child(2n) {
+        display: none;
+    }
+} 
+
 /* Organisation d'un événement privé - evenement.html */
 
 section {
@@ -64,7 +88,6 @@ margin-bottom: 20px;
     width: 40%;
     position: relative;
     margin: 50px;
-    
     padding: 15px 30px;
 }
 
@@ -113,27 +136,39 @@ margin-bottom: 20px;
 }
 
 
-
 /* Mise en page lien événements privés */
 
-.lien-evenement {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
 
-.lien-evenement p {
+.lien-evenement ul {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
     margin-bottom: 50px;
     font-size: 23px;
 }
 
-.lien-evenement a {
+.lien-evenement li {
+    margin-bottom: 100px;
     color: black;
     font-weight: bold;
+    width: 100%;
 }
 
 
 /* Organisation d'un déjeuné privé - brunch.html */
+
+@media all and (max-device-width: 480px) { 
+    div.detail-evenement p, div.list-evenement,
+    div.envies-evenement {
+        flex: 100%;
+        -ms-flex: 100%;
+        max-width: 100%;
+        width: auto;
+    }
+    div.img-evenement:nth-child(2n) {
+        display: none;
+    }
+} 
 
 .detail-evenement {
     width: 100%;
@@ -166,3 +201,6 @@ margin-bottom: 20px;
     font-size: 40px;
     margin-bottom: 50px;
 }
+
+
+

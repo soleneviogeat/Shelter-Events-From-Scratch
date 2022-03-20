@@ -1,5 +1,28 @@
 /* Contact */
 
+/* Responsive */
+
+
+@media screen and (max-width: 985px) {
+    .titre-contact {
+    flex: 100%;
+    -ms-flex: 100%;
+    max-width: 100%;
+    width: 96%;
+    }
+} 
+
+
+@media screen and (max-width: 480px) {
+    .text-contact, .titre-contact {
+    flex: 100%;
+    -ms-flex: 100%;
+    max-width: 100%;
+    width: auto;
+    }
+} 
+
+
 /* Paramètres généraux de la page */
 
 
@@ -220,5 +243,6 @@ textarea {
     font-weight: bold;
   }
   */
+
 
 

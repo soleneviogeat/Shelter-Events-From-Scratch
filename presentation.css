@@ -1,10 +1,16 @@
 /* Presentation */
 
+
 /* Bannière de présentation */
 
 #banniere_page1 {
     margin: 160px 0px;
     padding-left: 70px;
+}
+
+.detail_presentation {
+    display: flex;
+    justify-content: space-around;
 }
 
 .imgdiv  {
@@ -35,9 +41,20 @@
     padding: 80px 0px;
 }
 
-#card_page1  {
+.card_page1 {
+    width: 100%;
     display: flex;
+    flex-flow: row nowrap;
     justify-content: space-around;
+    
+   
+}
+
+.card-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
 }
 
 .flip-card {
@@ -89,15 +106,71 @@
 
 /* Légendes des cartes */
 
-#text_card  {
+.text_card  {
     display: flex;
     justify-content: space-around;
     text-align: center;
     font-size: 20px;
 
 }
-#text_card p {
+.text_card p {
     width: 50%;
     padding: 0% 7%;;
 }
+
+/* Responsive design */
+
+@media all and (max-device-width: 1810px) {
+    div.imgdiv {
+    width: 30%;
+    }
+    article {
+    width: 55%;
+    }
+}
+
+@media all and (max-device-width: 1650px) {
+    div.imgdiv {
+    width: 35%;
+    }
+    #banniere_page1 article {
+    width: 50%;
+    padding-left: 15px;
+    }
+}
+
+@media screen and (max-device-width: 1530px) {
+    div.imgdiv {
+    width: 40%;
+    }
+    #banniere_page1 article {
+    width: 45%;
+    padding-left: 15px;
+    }
+}
+
+@media screen and (max-device-width: 1440px) {
+    div.imgdiv {
+    width: 55%;
+    }
+    #banniere_page1 article {
+    width: 45%;
+    padding-left: 15px;
+    object-fit: cover;
+    }
+}
+
+@media all and (max-device-width: 1000px) {
+    div.detail_presentation, div.card_page1, div.card-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-left: 0;
+    }
+    div.imgdiv, #banniere_page1 article {
+    width: 75%;
+    }
+} 
+
 
